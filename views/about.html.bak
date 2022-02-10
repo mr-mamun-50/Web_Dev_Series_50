@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+    </ul>
+
+
+
+
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr>
+                <td style="border: 1px solid black;">Name</td>
+                <td style="border: 1px solid black;">ID</td>
+                <td style="border: 1px solid black;">Batch</td>
+                <td style="border: 1px solid black;">Section</td>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td style="border: 1px solid black;">Mmmm</td>
+                <td style="border: 1px solid black;">34</td>
+                <td style="border: 1px solid black;">yyyy</td>
+                <td rowspan="2" style="border: 1px solid black;">ccc</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Mmmm</td>
+                <td style="border: 1px solid black;">34</td>
+                <td style="border: 1px solid black;">yyyy</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Mmmm</td>
+                <td style="border: 1px solid black;">34</td>
+                <td colspan="2" style="border: 1px solid black;">yyyy</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
