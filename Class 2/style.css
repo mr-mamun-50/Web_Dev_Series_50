@@ -1,10 +1,11 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .nav {
     background-color: teal;
-    padding: 0.2rem;
+    padding: 20px;
     text-align: right;
 }
 .nav ul {
@@ -14,11 +15,11 @@ body {
 .nav .list li {
     display: inline-block;
     padding: 10px;
+    transition: 0.5s;
 }
 .nav .list li:hover {
     background-color: antiquewhite;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px pink;
 }
 .nav .list li:hover > a {
     color: teal;
@@ -32,7 +33,7 @@ body {
 .brand {
     float: left;
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 10px;
     color: beige;
 }
 
@@ -68,10 +69,11 @@ body {
     margin: 1.5%;
     border-radius: 10px;
     text-align: center;
+    transition: 0.5s;
 }
 .card img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     padding: 20px;
     border-radius: 100px;
 }
@@ -82,8 +84,9 @@ body {
 }
 .card p {
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
 }
 .card:hover {
     box-shadow: 0 0 10px grey;
+    transform: scale(1.05);
 }
